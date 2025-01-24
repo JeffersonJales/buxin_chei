@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"MailPost",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"MailPost",
+  "parent":{
+    "name":"MailPost",
+    "path":"folders/Libs/MailPost.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

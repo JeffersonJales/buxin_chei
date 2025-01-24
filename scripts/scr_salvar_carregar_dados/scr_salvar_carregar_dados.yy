@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_salvar_carregar_dados",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_salvar_carregar_dados",
+  "parent":{
+    "name":"Sistema",
+    "path":"folders/Scripts/Sistema.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_overlay",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_overlay",
+  "parent":{
+    "name":"Overlay",
+    "path":"folders/Libs/Overlay.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_filepath",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_filepath",
+  "parent":{
+    "name":"FilePath",
+    "path":"folders/Libs/FilePath.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

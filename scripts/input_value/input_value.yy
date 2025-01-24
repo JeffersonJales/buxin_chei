@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"input_value",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"input_value",
+  "parent":{
+    "name":"Checkers",
+    "path":"folders/Libs/Input/Checkers.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

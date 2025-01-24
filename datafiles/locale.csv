@@ -1,0 +1,44 @@
+Language,Comments,English,Portuguese_Brazil,German,Spanish_Spain,Japanese,Chinese_S
+Locale,,"[""en""]","[""pt-BR""]","[""de""]","[""es""]","[""ja""]","[""zh""]"
+language_label,,Languages,Idiomas,Sprachen,Lengua,言語,语言
+language_english,,English,Inglês,Englisch,Inglés,英語,英语
+language_portuguese_brazil,,Portuguese (Brazil),Português (Brasil),Portugiesisch (Brasilien),Portugués (Brasil),ポルトガル語（ブラジル）,葡萄牙（巴西）
+language_german,,German,Alemão,Deutsch,Alemán,ドイツ人,德语
+language_spanish,,Spanish,Espanhol,Spanisch,Español,スペイン語,西班牙语
+language_japanese,,Japanese,Japonês,japanisch,japonés,日本,日本人
+language_chinese,,Chinese,Chinês Simplificado,Chinesisch,Chino,中国語,中国人
+game_name,,Capybara Hotel,Hotel Capivara,Capybara Hotel,Hotel Capybara,カピバラホテル,Capybara酒店
+game_press_any_button,,Press Any Button,Pressione Qualquer Botão,Drücke irgend einen Knopf,Presione cualquier botón,任意のボタンを押します,按任何按钮
+button_main_menu_start_game,,Start Game,Começar Jogo,Spiel beginnen,Empezar juego,ゲームをスタート,开始游戏
+button_main_menu_credits,,Credits,Créditos,Credits,Créditos,クレジット,学分
+button_main_menu_steam_page,,Steam Page,Página Steam,Dampfseite,Página de Steam,スチームページ,Steam页面
+stage_select,,Stage Select,Selecionar fase,Bühnenauswahl,SELECCIÓN DE LA ETAPA,ステージ選択,舞台选择
+stage_name_rm_collect_1,,Capy Park,Capi Parque,Capy Park,Parque de capices,Capy Park,Capy Park
+stage_name_rm_collect_2,,Capy Sauna,Capi Sauna,Capy Sauna,Sauna de Capi,Capy Sauna,Capy Sauna
+stage_name_rm_collect_3,,Capy Hydro,Capi Hidro,Capy Hydro,Capy Hydro,Capy Hydro,Capy Hydro
+stage_name_rm_collect_4,,Capy Rooftop,Capi lage,Capy Dach,Capy en la azotea,Capy Rooftop,Capy屋顶
+stage_name_rm_collect_5,,Capy Dont know,Capi Não sei,Capy weiß es nicht,Capy no lo sé,Capyは知らない,Capy不知道
+stage_name_rm_collect_6,,Capy Something,Capi alguma coisa,Capy etwas,Capy algo,キャピな何か,帽子
+game_credits,,Created By Gabriel & Jefferson,Criado por Gabriel & Jefferson,Erstellt von Gabriel & Jefferson,Creado por Gabriel y Jefferson,ガブリエル＆ジェファーソンによって作成されました,由Gabriel＆Jefferson创建
+capybara_contract,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis vulputate aliquet. Etiam bibendum hendrerit eros eget blandit. ","Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis vulputate aliquet.","Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. In Venenatis Vulputates Aliquet. Etiam Bibendum Hendrerit Eros Eget Blandit.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. En Venenatis vulputate aliquet. Etiam Bibendum Hendrerit Eros Eget Blandit.",Lorem Ipsum dolor sit amet、conectetur adipiscing Elit。 Venenatis Vulputate Aliquetで。 Etiam Bibendum Hendrerit Eros Eget Blandit。,Lorem Ipsum Dolor Sit Amet，Consectur adipiscing Elit。在venenatis vulputate等分试样。 Etiam Bibendum Hendrerit Eros Eget Blandit。
+player_accept_contract,,Accept!,Aceito!,Akzeptieren!,¡Aceptar!,受け入れる！,接受！
+capybara_contract_end,,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis vulputate aliquet.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis vulputate aliquet. Etiam bibendum hendrerit eros eget blandit. ","Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. In Venenatis Vulputates Aliquet.","Lorem ipsum dolor sit amet, consectetur adipiscing elit. En Venenatis vulputate aliquet.",Lorem Ipsum dolor sit amet、conectetur adipiscing Elit。 Venenatis Vulputate Aliquetで。,Lorem Ipsum Dolor Sit Amet，Consectur adipiscing Elit。在venenatis vulputate等分试样。
+player_accept_contract_end,,See Ya!,Até logo!!,Tschüss!,¡Nos vemos!,じゃあ！,再见！
+button_reset_all_data,,Delete all saved data,Apagar progressão,Alle gespeicherten Daten löschen,Eliminar todos los datos guardados,保存されたすべてのデータを削除します,删除所有保存的数据
+button_player_to_menu,,Menu,Menu Inicial,Speisekarte,Menú,メニュー,菜单
+button_back_to_lobby,,Back To Lobby,Voltar para o lobby,Zurück zur Lobby,Volver al lobby,ロビーに戻ります,回到大厅
+button_player_quit_game,,Quit,Sair,Aufhören,Abandonar,やめる,辞职
+button_player_shut_down_game_desktop,,Back to Desktop,Ir para o desktop,Zurück zum Desktop,Volver al escritorio,デスクトップに戻ります,返回桌面
+button_player_to_options,,Options,Opções,Optionen,Opción,オプション,选项
+button_player_cancel,,Cancel,Cancelar,Stornieren,Cancelar,キャンセル,取消
+button_player_back,,Back,Voltar,Zurück,Atrás,戻る,后退
+button_player_continue_looking,Quando acabar a fase e o jogador pode olhar a paisagem,Look the landscape,Continuar olhando paisagem,Schau die Landschaft,Mira el paisaje,風景を見てください,看风景
+button_player_resume,Botão para voltar ao jogo depois de um pause,Resume,Continuar,Fortsetzen,Reanudar,履歴書,恢复
+simple_text_are_you_sure,Quando o jogador clica no botão de fechar o jogo,Are You Sure About it?,Você tem certeza?,Bist du dir sicher?,¿Estás seguro de eso?,それ本当？,你确定吗？
+simple_text_congratulations,"Quando o jogador encontra todos os itens da fase, ela encera mostrando esse texto",Congratulations,Parabéns,Glückwunsch,Felicidades,おめでとう,恭喜
+simple_text_paused_game,Texto que aparece abaixo do titulo quando o jogador pausa o jogo,Game Paused,Jogo Pausado,Das Spiel pausiert,Juego pausado,ゲームは一時停止しました,游戏暂停
+simple_text_loading,,Loading,Carregando,Wird geladen,Cargando,読み込み,加载
+simple_text_audio_options,,Sound,Áudio,Klang,Sonido,音,声音
+simple_text_audio_master,,Master,Master,Meister,Maestro,マスター,掌握
+simple_text_audio_bgm,,BGM,BGM,BGM,BGM,BGM,BGM
+simple_text_audio_sfx,,SFX,SFX,Sfx,SFX,SFX,SFX
