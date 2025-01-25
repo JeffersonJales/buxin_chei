@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.109342,
+  "duration":0.140136,
   "name":"sfx_drag",
   "parent":{
     "name":"SFX Buxin",

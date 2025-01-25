@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"sfx_drop",
+  "%Name":"sfx_error",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.109342,
-  "name":"sfx_drop",
+  "duration":0.202721,
+  "name":"sfx_error",
   "parent":{
     "name":"SFX Buxin",
     "path":"folders/Sounds/SFX Buxin.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_drop.wav",
+  "soundFile":"sfx_error.wav",
   "type":0,
   "volume":1.0,
 }

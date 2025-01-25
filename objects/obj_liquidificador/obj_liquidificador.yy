@@ -35,10 +35,10 @@
       ],"listItems":[],"multiselect":false,"name":"copo_alvo","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_liquido_suco","path":"objects/obj_liquido_suco/obj_liquido_suco.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_liquido_suco","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sfx_ligando","filters":[
         "GMSound",
-      ],"listItems":[],"multiselect":false,"name":"sfx_ligando","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"sfx_ligando","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_blender_loop","path":"sounds/sfx_blender_loop/sfx_blender_loop.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_blender_loop","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sfx_desligando","filters":[
         "GMPath",
-      ],"listItems":[],"multiselect":false,"name":"sfx_desligando","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"sfx_desligando","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_juice_ready","path":"sounds/sfx_juice_ready/sfx_juice_ready.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_juice_ready","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
