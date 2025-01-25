@@ -75,6 +75,6 @@ function bgm_on_volume_change(){
 }
 function sfx_on_volume_change(){}
 
-function sfx_play_simple(audio, priority = AUDIO_PRIORITY_SFX_BASIC){
-	return audio_play_sound(audio, priority, false, sfx_get_volume());
+function sfx_play_simple(audio, priority = AUDIO_PRIORITY_SFX_BASIC, _offset = 0){
+	return audio_play_sound(audio, priority, false, sfx_get_volume(), _offset);
 }

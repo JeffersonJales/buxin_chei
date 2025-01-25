@@ -12,14 +12,14 @@
   "duration":96.05,
   "name":"BGM_buxim_xei_start_game",
   "parent":{
-    "name":"BGM",
-    "path":"folders/Sounds/BGM.yy",
+    "name":"BGM Buxim",
+    "path":"folders/Sounds/BGM Buxim.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"BGM_buxim_xei_start_game.ogg",
-  "type":0,
+  "type":1,
   "volume":1.0,
 }
