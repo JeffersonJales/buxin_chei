@@ -103,7 +103,6 @@
   ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"lexicon_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"lexicon_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"lexicon_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"lexicon_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"locale.csv","CopyToMask":-1,"filePath":"datafiles","name":"locale.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
@@ -612,6 +611,8 @@
     {"id":{"name":"__shd_scribble_bake_shadow","path":"shaders/__shd_scribble_bake_shadow/__shd_scribble_bake_shadow.yy",},},
     {"id":{"name":"__shd_scribble_msdf","path":"shaders/__shd_scribble_msdf/__shd_scribble_msdf.yy",},},
     {"id":{"name":"__shd_scribble","path":"shaders/__shd_scribble/__shd_scribble.yy",},},
+    {"id":{"name":"BGM_buxim_xei_stage_1","path":"sounds/BGM_buxim_xei_stage_1/BGM_buxim_xei_stage_1.yy",},},
+    {"id":{"name":"BGM_buxim_xei_start_game","path":"sounds/BGM_buxim_xei_start_game/BGM_buxim_xei_start_game.yy",},},
     {"id":{"name":"bgm_stage_1","path":"sounds/bgm_stage_1/bgm_stage_1.yy",},},
     {"id":{"name":"sfx_collect_all_normal_capybaras","path":"sounds/sfx_collect_all_normal_capybaras/sfx_collect_all_normal_capybaras.yy",},},
     {"id":{"name":"sfx_collect_bee","path":"sounds/sfx_collect_bee/sfx_collect_bee.yy",},},
