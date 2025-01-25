@@ -7,6 +7,8 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_liquidificador","path":"objects/obj_liquidificador/obj_liquidificador.yy",},"propertyId":{"name":"copo_alvo","path":"objects/obj_liquidificador/obj_liquidificador.yy",},"resource":{"name":"obj_liquido_cafe","path":"objects/obj_liquido_cafe/obj_liquido_cafe.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_liquido_cafe",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_liquidificador","path":"objects/obj_liquidificador/obj_liquidificador.yy",},"propertyId":{"name":"tempo_produzir","path":"objects/obj_liquidificador/obj_liquidificador.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_liquidificador","path":"objects/obj_liquidificador/obj_liquidificador.yy",},"propertyId":{"name":"sfx_ligando","path":"objects/obj_liquidificador/obj_liquidificador.yy",},"resource":{"name":"sfx_coffee_machine_loop","path":"sounds/sfx_coffee_machine_loop/sfx_coffee_machine_loop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sfx_coffee_machine_loop",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_liquidificador","path":"objects/obj_liquidificador/obj_liquidificador.yy",},"propertyId":{"name":"sfx_desligando","path":"objects/obj_liquidificador/obj_liquidificador.yy",},"resource":{"name":"sfx_coffee_ready","path":"sounds/sfx_coffee_ready/sfx_coffee_ready.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sfx_coffee_ready",},
   ],
   "parent":{
     "name":"Liquidos",

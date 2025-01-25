@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.140136,
+  "duration":0.109342,
   "name":"sfx_drop",
   "parent":{
     "name":"SFX Buxin",

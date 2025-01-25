@@ -33,6 +33,9 @@
     {"$GMObjectProperty":"v1","%Name":"destino_recipiente","filters":[
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"destino_recipiente","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_boca_fogao","path":"objects/obj_boca_fogao/obj_boca_fogao.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_boca_fogao","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sfx_pegando","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"sfx_pegando","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_drag","path":"sounds/sfx_drag/sfx_drag.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_drag","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
