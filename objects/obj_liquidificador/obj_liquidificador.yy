@@ -44,8 +44,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cafeteira",
-    "path":"sprites/spr_cafeteira/spr_cafeteira.yy",
+    "name":"spr_liquitificador",
+    "path":"sprites/spr_liquitificador/spr_liquitificador.yy",
   },
   "spriteMaskId":null,
   "visible":true,

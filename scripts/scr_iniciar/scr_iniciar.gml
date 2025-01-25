@@ -95,10 +95,6 @@ function game_language_change(new_lang, force = false){
 #macro MESSAGE_OVERLAYER_CREATE "OverlayCreate"
 #macro MESSAGE_OVERLAYER_DESTROY "OverlayDestroy"
 #macro MESSAGE_OVERLAYER_DESTROY_ALL "OverlayDestroyAll"
-#macro MESSAGE_ALL_NORMAL_COLLECT "AllNormalCollect"
-#macro MESSAGE_ALL_SPECIAL_COLLECT "AllSpecialCollect"
-#macro MESSAGE_HIDDEN_CAPYBARA_COLLECT "HiddenCapybara"
-#macro MESSAGE_HINT_USE "HintUse"
 
 #macro MESSAGE_TIMELINE_ACTION_END "TimelineActionEnd"
 #macro MESSAGE_TIMELINE_ACTION_START "TimelineActionStart"
@@ -109,6 +105,8 @@ function game_language_change(new_lang, force = false){
 
 #macro MESSAGE_LANGUAGE_CHANGE "LanguageChange"
 #macro MESSAGE_LANGUAGE_CHANGE_SETUP "LanguageSetup"
+
+#macro MESSAGE_CLIENTE_FOI_EMBORA "ClienteFoiEmbora"
 #endregion
 
 #region BOOTING THE GAME

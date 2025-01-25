@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite17",
-    "path":"sprites/Sprite17/Sprite17.yy",
+    "name":"spr_lixeira",
+    "path":"sprites/spr_lixeira/spr_lixeira.yy",
   },
   "spriteMaskId":null,
   "visible":true,

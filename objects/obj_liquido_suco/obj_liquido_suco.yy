@@ -10,8 +10,8 @@
     "path":"folders/Objects/Jogo/Cozinha/Liquidos.yy",
   },
   "parentObjectId":{
-    "name":"obj_liquido_base",
-    "path":"objects/obj_liquido_base/obj_liquido_base.yy",
+    "name":"obj_receita_liquida_base",
+    "path":"objects/obj_receita_liquida_base/obj_receita_liquida_base.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_copo",
+    "path":"sprites/spr_copo/spr_copo.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

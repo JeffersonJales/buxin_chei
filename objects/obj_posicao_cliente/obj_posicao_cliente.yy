@@ -32,5 +32,5 @@
     "path":"sprites/spr_posicao_cliente/spr_posicao_cliente.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

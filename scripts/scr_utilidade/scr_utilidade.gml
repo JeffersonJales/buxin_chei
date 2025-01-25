@@ -77,7 +77,15 @@ function show(){
 	show_debug_message(_str);
 	SHOW_MESSAGE(_str);
 }
-	
+
+function array_get_random(array){
+	return array[irandom(array_length(array) - 1)];	
+}
+
+function ds_list_get_random(list){
+	return list[| irandom(ds_list_size(list) - 1)];	
+}
+
 /// Getting the last index of the array
 /// @return {Any,Undefined}
 function array_last(arr){
@@ -116,11 +124,11 @@ function string_concat(sep = " "){
 	return _str;
 }
 	
-function array_foreach(arr, func){
-	for (var i = 0; i < array_length(arr); ++i) {
-		func(arr[i]);
-	}
-}
+//function array_foreach(arr, func){
+//	for (var i = 0; i < array_length(arr); ++i) {
+//		func(arr[i]);
+//	}
+//}
 
 function deactive_all_layers(){
 	var _arr_layers = layer_get_all();

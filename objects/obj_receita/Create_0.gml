@@ -1,4 +1,5 @@
 /// @description Receber ingrediente extra
+receita_especial = false;
 instancia_recipiente = noone;
 desocupar_recipiente = function(){
 	if(instance_exists(instancia_recipiente))
@@ -13,6 +14,15 @@ mudar_receita = function(receita_destino){
 	}
 	
 	return false;
+}
+
+pode_coletar = function(){
+	return true;	
+}
+
+coletar_receita = function(){
+	desocupar_recipiente();
+	instance_destroy();
 }
 
 tween_scale_base_init();
