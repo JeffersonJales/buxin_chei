@@ -629,6 +629,7 @@
     {"id":{"name":"sfx_eating_1","path":"sounds/sfx_eating_1/sfx_eating_1.yy",},},
     {"id":{"name":"sfx_eating_2","path":"sounds/sfx_eating_2/sfx_eating_2.yy",},},
     {"id":{"name":"sfx_eating_3","path":"sounds/sfx_eating_3/sfx_eating_3.yy",},},
+    {"id":{"name":"sfx_error","path":"sounds/sfx_error/sfx_error.yy",},},
     {"id":{"name":"sfx_fail","path":"sounds/sfx_fail/sfx_fail.yy",},},
     {"id":{"name":"sfx_hint_arrow","path":"sounds/sfx_hint_arrow/sfx_hint_arrow.yy",},},
     {"id":{"name":"sfx_juice_ready","path":"sounds/sfx_juice_ready/sfx_juice_ready.yy",},},
