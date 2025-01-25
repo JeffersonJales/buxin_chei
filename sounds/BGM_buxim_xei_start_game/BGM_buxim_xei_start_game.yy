@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"BGM_buxim_xei_start_game",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":96.05,
+  "name":"BGM_buxim_xei_start_game",
+  "parent":{
+    "name":"BGM Buxim",
+    "path":"folders/Sounds/BGM Buxim.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"BGM_buxim_xei_start_game.ogg",
+  "type":1,
+  "volume":1.0,
+}

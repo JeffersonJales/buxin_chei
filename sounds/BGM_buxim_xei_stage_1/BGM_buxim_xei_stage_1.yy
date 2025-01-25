@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"BGM_buxim_xei_stage_1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":84.4875,
+  "name":"BGM_buxim_xei_stage_1",
+  "parent":{
+    "name":"BGM Buxim",
+    "path":"folders/Sounds/BGM Buxim.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"BGM_buxim_xei_stage_1.ogg",
+  "type":1,
+  "volume":1.0,
+}
