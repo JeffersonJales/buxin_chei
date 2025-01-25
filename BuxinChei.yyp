@@ -92,6 +92,8 @@
     {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BGM","folderPath":"folders/Sounds/BGM.yy","name":"BGM","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"BGM Buxim","folderPath":"folders/Sounds/BGM Buxim.yy","name":"BGM Buxim","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"SFX Buxin","folderPath":"folders/Sounds/SFX Buxin.yy","name":"SFX Buxin","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"SFX","folderPath":"folders/Sounds/SFX.yy","name":"SFX","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Buttons","folderPath":"folders/Sprites/Buttons.yy","name":"Buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
