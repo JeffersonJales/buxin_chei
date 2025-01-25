@@ -1,0 +1,43 @@
+{
+  "$GMObject":"",
+  "%Name":"obj_saco_ingrediente_base",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"obj_saco_ingrediente_base",
+  "overriddenProperties":[],
+  "parent":{
+    "name":"Sacos de Ingredientes",
+    "path":"folders/Objects/Jogo/Cozinha/Solidos/Sacos de Ingredientes.yy",
+  },
+  "parentObjectId":null,
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"ingrediente","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"ingrediente","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_ingrediente_base","path":"objects/obj_ingrediente_base/obj_ingrediente_base.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_ingrediente_base","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"destino_recipiente","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"destino_recipiente","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_boca_fogao","path":"objects/obj_boca_fogao/obj_boca_fogao.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_boca_fogao","varType":5,},
+  ],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":null,
+  "spriteMaskId":null,
+  "visible":true,
+}

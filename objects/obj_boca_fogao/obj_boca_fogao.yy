@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_panela",
+  "%Name":"obj_boca_fogao",
   "eventList":[],
   "managed":true,
-  "name":"obj_panela",
+  "name":"obj_boca_fogao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cozinha",
-    "path":"folders/Objects/Jogo/Cozinha.yy",
+    "name":"Local Para Cozinhar",
+    "path":"folders/Objects/Jogo/Cozinha/Solidos/Local Para Cozinhar.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_local_ingrediente",
+    "path":"objects/obj_local_ingrediente/obj_local_ingrediente.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_bocafogao",
+    "path":"sprites/spr_bocafogao/spr_bocafogao.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

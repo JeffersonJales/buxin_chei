@@ -1,4 +1,5 @@
 // Script Desc 
+#macro ROOM_SPEED game_get_speed(gamespeed_fps)
 
 /// Literaly doing nothing
 function do_nothing(){}
@@ -22,10 +23,38 @@ function instance_destroy_exists(obj){
 	if(instance_exists(obj)) instance_destroy(obj);
 }
 
+function instance_set_sprite(spr, img_index = 0, img_speed = 1){
+	sprite_index = spr;
+	image_index = img_index;
+	image_speed = img_speed;
+}
+
+
+function instance_find_all(obj){
+	var num = instance_number(obj);
+	var arr = array_create(num);
+	for(var i = 0; i < num; i++){
+		arr[i] = instance_find(obj, i);	
+	}
+	
+	return arr;
+}
+
 /// Call this from an instance, set the xscale and yscale with the given scale
 function image_scale(scale){
 	image_xscale = scale;
 	image_yscale = scale;
+}
+
+function tween_scale_base_init(){
+	__tween_scale = undefined;
+	__xscale_base = image_xscale;
+	__yscale_base = image_yscale;
+}
+
+function tween_scale_base_exec(xscale = image_xscale + 0.1, yscale = image_yscale + 0.1){
+	TweenDestroySafe(__tween_scale);
+	__tween_scale = TweenEasyScale(xscale, yscale, __xscale_base, __yscale_base, 0, 15, EaseInOutBack, 0);
 }
 
 /// Print an message in the output window

@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ingrediente",
-  "eventList":[],
+  "%Name":"obj_ingrediente_ruim",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_ingrediente",
+  "name":"obj_ingrediente_ruim",
   "overriddenProperties":[],
   "parent":{
     "name":"Cozinha",
