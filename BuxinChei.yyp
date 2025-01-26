@@ -679,6 +679,8 @@
     {"id":{"name":"sfx_eating_3","path":"sounds/sfx_eating_3/sfx_eating_3.yy",},},
     {"id":{"name":"sfx_error","path":"sounds/sfx_error/sfx_error.yy",},},
     {"id":{"name":"sfx_fail","path":"sounds/sfx_fail/sfx_fail.yy",},},
+    {"id":{"name":"sfx_gui_button_colision_1","path":"sounds/sfx_gui_button_colision_1/sfx_gui_button_colision_1.yy",},},
+    {"id":{"name":"sfx_gui_button_colision_2","path":"sounds/sfx_gui_button_colision_2/sfx_gui_button_colision_2.yy",},},
     {"id":{"name":"sfx_hint_arrow","path":"sounds/sfx_hint_arrow/sfx_hint_arrow.yy",},},
     {"id":{"name":"sfx_juice_ready","path":"sounds/sfx_juice_ready/sfx_juice_ready.yy",},},
     {"id":{"name":"sfx_mouse_click","path":"sounds/sfx_mouse_click/sfx_mouse_click.yy",},},

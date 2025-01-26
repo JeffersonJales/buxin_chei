@@ -40,6 +40,7 @@
     {"$GMObjectProperty":"v1","%Name":"sfx_desligando","filters":[
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"sfx_desligando","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_juice_ready","path":"sounds/sfx_juice_ready/sfx_juice_ready.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_juice_ready","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sfx_ligando_volume","filters":[],"listItems":[],"multiselect":false,"name":"sfx_ligando_volume","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":".075","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
