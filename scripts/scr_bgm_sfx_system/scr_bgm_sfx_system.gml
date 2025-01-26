@@ -19,10 +19,10 @@ global.__audio_system = {
 	},
 }
 
-
 function bgm_play(audio_asset, stop_all = true){
-	if(stop_all) bgm_stop_all();
 	if(__BGM.current == audio_asset) return;
+	if(stop_all) bgm_stop_all();
+	
 	__BGM.current = audio_asset
 	
 	var _audio_id = audio_play_sound(audio_asset, AUDIO_PRIORITY_BGM, true, 0);
@@ -76,11 +76,11 @@ function bgm_on_volume_change(){
 function sfx_on_volume_change(){}
 
 
-function sfx_play(audio, loop = false, gain = sfx_get_volume(), offset = 0, pitch = 1, priority = AUDIO_PRIORITY_SFX_BASIC){
-	return audio_play_sound(audio, priority, loop, gain, offset, pitch);
+function sfx_play(audio, loop = false, gain = 1, offset = 0, pitch = 1, priority = AUDIO_PRIORITY_SFX_BASIC){
+	return audio_play_sound(audio, priority, loop, gain * sfx_get_volume(), offset, pitch);
 }
 
-function sfx_play_simple(audio, priority = AUDIO_PRIORITY_SFX_BASIC, _offset = 0){
-	return audio_play_sound(audio, priority, false, sfx_get_volume(), _offset);
+function sfx_play_simple(audio, gain = 1, priority = AUDIO_PRIORITY_SFX_BASIC, _offset = 0){
+	return audio_play_sound(audio, priority, false, gain * sfx_get_volume(), _offset);
 }
 
