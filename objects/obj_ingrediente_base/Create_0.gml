@@ -5,13 +5,13 @@ image_speed = 0;
 status = STATUS_INGREDIENTE_CRU;
 tempo_para_cozinhar_em_sec = tempo_para_cozinhar_em_sec * ROOM_SPEED;
 tempo_para_queimar_em_sec = tempo_para_queimar_em_sec * ROOM_SPEED;
-tempo_restante_para_proximo_status = 0;
 
 /// Som id
 audio_id_preparando = noone;
 
 /// Panela
 penela_id = noone;
+timer_id = noone;
 
 /// Recipente
 instancia_recipiente = noone;
@@ -32,6 +32,7 @@ ingrediente_fsm
 		image_index = 0;
 		status = STATUS_INGREDIENTE_CRU;
 		audio_id_preparando = sfx_play(sfx_preparando, true);
+		timer_id = iniciar_timer(tempo_para_cozinhar_em_sec)
 	},
 	click : function(){
 		audio_stop_sound_fade(audio_id_preparando);
@@ -42,7 +43,6 @@ ingrediente_fsm
 		instance_destroy();
 	},
 	step : function(){
-		tempo_restante_para_proximo_status = tempo_para_cozinhar_em_sec;
 		if(--tempo_para_cozinhar_em_sec <= 0)
 			ingrediente_fsm.change(STATUS_INGREDIENTE_OK);
 	}
@@ -52,6 +52,8 @@ ingrediente_fsm
 		image_index = 1;	
 		status = STATUS_INGREDIENTE_OK;
 		sfx_play_simple(sfx_pronto);
+		instance_destroy_exists(timer_id);
+		timer_id = iniciar_timer(tempo_para_queimar_em_sec, false)
 	},
 	click : function(){
 		if(procurar_recipente_vazio(recipiente_ao_ficar_pronto, receita)){
@@ -64,7 +66,6 @@ ingrediente_fsm
 		}
 	}, 
 	step : function(){
-		tempo_restante_para_proximo_status = tempo_para_queimar_em_sec;
 		if(--tempo_para_queimar_em_sec <= 0)
 			ingrediente_fsm.change(STATUS_INGREDIENTE_QUEIMADO);	
 	}
@@ -75,8 +76,9 @@ ingrediente_fsm
 		status = STATUS_INGREDIENTE_QUEIMADO;
 		audio_stop_sound_fade(audio_id_preparando);
 		audio_id_preparando = noone;
-
+		
 		sfx_play_simple(sfx_falhado);
+		instance_destroy_exists(timer_id);
 	},
 	click : function(){
 		desocupar_recipiente();

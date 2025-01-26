@@ -64,6 +64,7 @@ cliente_fsm
 	enter : function(){
 		balao_pedido = instance_create_layer(x + sprite_width * 0.2, y - sprite_width * 0.25, "Baloes", obj_cliente_pedido);
 		balao_pedido.configurar_pedidos(id, pedidos);
+		timer_id = iniciar_timer(tempo_maximo_paciencia);
 	},
 	step : function(){
 		if(--tempo_maximo_paciencia <= 0)
@@ -75,6 +76,9 @@ cliente_fsm
 })
 .add("sair", {
 	enter : function(){
+		instance_destroy_exists(timer_id);
+		timer_id = noone;
+		
 		instance_destroy_exists(balao_pedido);
 		mailpost_delivery(MESSAGE_CLIENTE_FOI_EMBORA, id);
 

@@ -11,6 +11,7 @@ tempo_produzir = tempo_produzir * ROOM_SPEED;
 tempo_restante_para_proximo_status = 0;
 
 /// Recipente
+timer = noone;
 instancia_copo = noone;
 
 /// Maquina de Estado Finito
@@ -37,7 +38,8 @@ liquidificador_fsm
 		image_index = 1;
 		status = STATUS_LIQUIDIFICADOR_LIGADO;
 		tempo_restante_para_proximo_status = tempo_produzir;
-		audio_ligando_loop = sfx_play(sfx_ligando, true, sfx_ligando_volume)
+		audio_ligando_loop = sfx_play(sfx_ligando, true, sfx_ligando_volume);
+		timer = iniciar_timer(tempo_produzir);
 	},
 	step : function(){
 		if(--tempo_restante_para_proximo_status <= 0){
@@ -46,6 +48,7 @@ liquidificador_fsm
 			liquidificador_fsm.change(STATUS_LIQUIDIFICADOR_DESLIGADO);
 			audio_stop_sound_fade(audio_ligando_loop);
 			sfx_play_simple(sfx_desligando);
+			instance_destroy_exists(timer);
 		}
 	}
 })

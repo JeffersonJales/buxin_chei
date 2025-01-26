@@ -31,16 +31,16 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"sfx_on_click","filters":[
         "GMSound",
-      ],"listItems":[],"multiselect":false,"name":"sfx_on_click","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"sfx_on_click","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_gui_button_enter","path":"sounds/sfx_gui_button_enter/sfx_gui_button_enter.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_gui_button_enter","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sfx_on_click_disable","filters":[
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"sfx_on_click_disable","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sfx_on_enter","filters":[
         "GMSound",
-      ],"listItems":[],"multiselect":false,"name":"sfx_on_enter","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"sfx_on_enter","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_gui_button_colision_1","path":"sounds/sfx_gui_button_colision_1/sfx_gui_button_colision_1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_gui_button_colision_1","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sfx_on_enter_2","filters":[
         "GMSound",
-      ],"listItems":[],"multiselect":false,"name":"sfx_on_enter_2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"sfx_on_enter_2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_gui_button_colision_2","path":"sounds/sfx_gui_button_colision_2/sfx_gui_button_colision_2.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_gui_button_colision_2","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sfx_on_leave","filters":[
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"sfx_on_leave","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":5,},
