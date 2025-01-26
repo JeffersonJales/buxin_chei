@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"BGM_buxim_xei_start_game",
+  "%Name":"sfx_gui_button_colision_2",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":96.05,
-  "name":"BGM_buxim_xei_start_game",
+  "duration":1.6061,
+  "name":"sfx_gui_button_colision_2",
   "parent":{
-    "name":"BGM Buxim",
-    "path":"folders/Sounds/BGM Buxim.yy",
+    "name":"SFX Buxin",
+    "path":"folders/Sounds/SFX Buxin.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"BGM_buxim_xei_start_game.ogg",
-  "type":1,
-  "volume":0.5,
+  "soundFile":"sfx_gui_button_colision_2.wav",
+  "type":0,
+  "volume":1.0,
 }

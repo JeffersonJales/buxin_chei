@@ -37,7 +37,7 @@ liquidificador_fsm
 		image_index = 1;
 		status = STATUS_LIQUIDIFICADOR_LIGADO;
 		tempo_restante_para_proximo_status = tempo_produzir;
-		audio_ligando_loop = sfx_play(sfx_ligando, true)
+		audio_ligando_loop = sfx_play(sfx_ligando, true, sfx_ligando_volume)
 	},
 	step : function(){
 		if(--tempo_restante_para_proximo_status <= 0){
