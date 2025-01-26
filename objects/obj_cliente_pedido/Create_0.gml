@@ -19,10 +19,7 @@ configurar_pedidos = function(instCliente, pedidos){
 	}
 }
 
-atualizar_lista = function(receita){
-	for(var i = 0; i < array_length(icones); i++){
-		if(instance_exists(icones[i]) && icones[i].receita_relacionada == receita){
-			instance_destroy(icones[i]);
-		}
-	}
+atualizar_lista = function(ind_receita){
+	if(instance_exists(icones[ind_receita]))
+		instance_destroy(icones[ind_receita]);
 }

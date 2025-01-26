@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"obj_cliente_3",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_cliente","path":"objects/obj_cliente/obj_cliente.yy",},"propertyId":{"name":"tempo_maximo_paciencia","path":"objects/obj_cliente/obj_cliente.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"70",},
+  ],
   "parent":{
     "name":"Personagens",
     "path":"folders/Objects/Jogo/Clientes/Personagens.yy",

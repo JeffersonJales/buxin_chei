@@ -33,7 +33,7 @@ procurar_receitas_prontas = function(){
 					pedidos_ok[i] = true;
 					pedidos_especiais[i] = inst.receita_especial;
 					inst.coletar_receita();
-					balao_pedido.atualizar_lista(pedidos[i]);
+					balao_pedido.atualizar_lista(i);
 					break;
 				}
 			}
