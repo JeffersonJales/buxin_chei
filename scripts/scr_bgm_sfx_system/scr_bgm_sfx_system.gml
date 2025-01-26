@@ -21,8 +21,9 @@ global.__audio_system = {
 
 
 function bgm_play(audio_asset, stop_all = true){
-	if(stop_all) bgm_stop_all();
 	if(__BGM.current == audio_asset) return;
+	if(stop_all) bgm_stop_all();
+	
 	__BGM.current = audio_asset
 	
 	var _audio_id = audio_play_sound(audio_asset, AUDIO_PRIORITY_BGM, true, 0);
