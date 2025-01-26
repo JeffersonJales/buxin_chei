@@ -11,8 +11,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_receita","path":"objects/obj_receita/obj_receita.yy",},"propertyId":{"name":"valor","path":"objects/obj_receita/obj_receita.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
-    "name":"Liquidos",
-    "path":"folders/Objects/Jogo/Cozinha/Liquidos.yy",
+    "name":"Liquida",
+    "path":"folders/Objects/Jogo/Cozinha/Receita/Liquida.yy",
   },
   "parentObjectId":{
     "name":"obj_receita",

@@ -6,8 +6,8 @@
   "name":"obj_liquido_cafe",
   "overriddenProperties":[],
   "parent":{
-    "name":"Liquidos",
-    "path":"folders/Objects/Jogo/Cozinha/Liquidos.yy",
+    "name":"Liquida",
+    "path":"folders/Objects/Jogo/Cozinha/Receita/Liquida.yy",
   },
   "parentObjectId":{
     "name":"obj_receita_liquida_base",

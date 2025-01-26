@@ -3,7 +3,7 @@ icones = undefined;
 cliente = noone;
 
 configurar_pedidos = function(instCliente, pedidos){
-	clinte = instCliente;
+	cliente = instCliente;
 	var count = array_length(pedidos);
 	var _x = x + sprite_width * 0.5;
 	var _y = bbox_top;
@@ -13,7 +13,7 @@ configurar_pedidos = function(instCliente, pedidos){
 		var inst = instance_create_depth(_x, _y, depth - 1, obj_cliente_pedido_icon);
 		_y = _y + inst.sprite_height * 0.5 + 64;
 		inst.y = _y;
-		inst.configurar_pedido(cliente, pedidos[i]);
+		inst.configurar_pedido(pedidos[i]);
 		
 		icones[i] = inst;
 	}
@@ -26,4 +26,3 @@ atualizar_lista = function(receita){
 		}
 	}
 }
-

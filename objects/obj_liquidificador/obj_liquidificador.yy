@@ -11,8 +11,8 @@
   "name":"obj_liquidificador",
   "overriddenProperties":[],
   "parent":{
-    "name":"Liquidos",
-    "path":"folders/Objects/Jogo/Cozinha/Liquidos.yy",
+    "name":"Geradores",
+    "path":"folders/Objects/Jogo/Cozinha/Geradores.yy",
   },
   "parentObjectId":null,
   "persistent":false,

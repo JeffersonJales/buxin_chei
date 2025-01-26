@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Local Para Cozinhar",
-    "path":"folders/Objects/Jogo/Cozinha/Solidos/Local Para Cozinhar.yy",
+    "path":"folders/Objects/Jogo/Cozinha/Local Para Cozinhar.yy",
   },
   "parentObjectId":null,
   "persistent":false,

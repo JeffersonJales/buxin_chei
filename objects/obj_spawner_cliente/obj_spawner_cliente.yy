@@ -6,8 +6,8 @@
   "name":"obj_spawner_cliente",
   "overriddenProperties":[],
   "parent":{
-    "name":"Clientes",
-    "path":"folders/Objects/Jogo/Clientes.yy",
+    "name":"Controladores",
+    "path":"folders/Objects/Jogo/Clientes/Controladores.yy",
   },
   "parentObjectId":null,
   "persistent":false,

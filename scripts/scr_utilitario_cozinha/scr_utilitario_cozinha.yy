@@ -6,7 +6,7 @@
   "name":"scr_utilitario_cozinha",
   "parent":{
     "name":"Cozinha",
-    "path":"folders/Scripts/Sistema/Cozinha.yy",
+    "path":"folders/Scripts/Cozinha.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

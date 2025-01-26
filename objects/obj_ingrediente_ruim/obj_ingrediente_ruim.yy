@@ -8,8 +8,8 @@
   "name":"obj_ingrediente_ruim",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cozinha",
-    "path":"folders/Objects/Jogo/Cozinha.yy",
+    "name":"Lixeira",
+    "path":"folders/Objects/Jogo/Cozinha/Lixeira.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Ingredientes",
-    "path":"folders/Objects/Jogo/Cozinha/Solidos/Ingredientes.yy",
+    "path":"folders/Objects/Jogo/Cozinha/Ingredientes.yy",
   },
   "parentObjectId":null,
   "persistent":false,

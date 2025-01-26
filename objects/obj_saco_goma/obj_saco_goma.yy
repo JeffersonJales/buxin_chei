@@ -9,7 +9,7 @@
   ],
   "parent":{
     "name":"Sacos de Ingredientes",
-    "path":"folders/Objects/Jogo/Cozinha/Solidos/Sacos de Ingredientes.yy",
+    "path":"folders/Objects/Jogo/Cozinha/Sacos de Ingredientes.yy",
   },
   "parentObjectId":{
     "name":"obj_saco_ingrediente_base",

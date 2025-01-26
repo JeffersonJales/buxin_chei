@@ -8,8 +8,8 @@
   "name":"obj_receita_tapioca_simples",
   "overriddenProperties":[],
   "parent":{
-    "name":"Receita",
-    "path":"folders/Objects/Jogo/Cozinha/Solidos/Receita.yy",
+    "name":"Solida",
+    "path":"folders/Objects/Jogo/Cozinha/Receita/Solida.yy",
   },
   "parentObjectId":{
     "name":"obj_receita",

@@ -11,8 +11,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_liquidificador","path":"objects/obj_liquidificador/obj_liquidificador.yy",},"propertyId":{"name":"sfx_desligando","path":"objects/obj_liquidificador/obj_liquidificador.yy",},"resource":{"name":"sfx_coffee_ready","path":"sounds/sfx_coffee_ready/sfx_coffee_ready.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sfx_coffee_ready",},
   ],
   "parent":{
-    "name":"Liquidos",
-    "path":"folders/Objects/Jogo/Cozinha/Liquidos.yy",
+    "name":"Geradores",
+    "path":"folders/Objects/Jogo/Cozinha/Geradores.yy",
   },
   "parentObjectId":{
     "name":"obj_liquidificador",

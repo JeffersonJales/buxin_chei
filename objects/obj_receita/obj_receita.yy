@@ -10,8 +10,8 @@
   "name":"obj_receita",
   "overriddenProperties":[],
   "parent":{
-    "name":"Receita",
-    "path":"folders/Objects/Jogo/Cozinha/Solidos/Receita.yy",
+    "name":"Solida",
+    "path":"folders/Objects/Jogo/Cozinha/Receita/Solida.yy",
   },
   "parentObjectId":null,
   "persistent":false,
