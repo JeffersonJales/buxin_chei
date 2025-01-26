@@ -77,6 +77,7 @@ ingrediente_fsm
 		audio_stop_sound_fade(audio_id_preparando);
 		audio_id_preparando = noone;
 		
+		instance_destroy_exists(penela_id.fogo_id);
 		sfx_play_simple(sfx_falhado);
 		instance_destroy_exists(timer_id);
 	},

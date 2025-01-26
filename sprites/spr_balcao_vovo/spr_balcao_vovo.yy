@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Cozinha",
-    "path":"folders/Sprites/Cozinha.yy",
+    "name":"Cenario",
+    "path":"folders/Sprites/Cozinha/Cenario.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

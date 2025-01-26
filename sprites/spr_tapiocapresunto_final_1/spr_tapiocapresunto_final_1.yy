@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_tapiocapresunto_final_1",
   "bboxMode":0,
-  "bbox_bottom":86,
+  "bbox_bottom":85,
   "bbox_left":0,
-  "bbox_right":196,
+  "bbox_right":183,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"344ccfc0-f769-4d12-9c3d-8e9ae0c5f3db","name":"344ccfc0-f769-4d12-9c3d-8e9ae0c5f3db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e664f83b-bb2f-4abe-9986-a9aea67b1876","name":"e664f83b-bb2f-4abe-9986-a9aea67b1876","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":87,
+  "height":86,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e226e9d0-0ce5-4f42-9014-d0f7e0a430ad","blendMode":0,"displayName":"default","isLocked":false,"name":"e226e9d0-0ce5-4f42-9014-d0f7e0a430ad","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e8998ad0-70a9-44c0-b2a0-02399d8b304c","blendMode":0,"displayName":"default","isLocked":false,"name":"e8998ad0-70a9-44c0-b2a0-02399d8b304c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_tapiocapresunto_final_1",
   "nineSlice":null,
@@ -69,13 +69,13 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"344ccfc0-f769-4d12-9c3d-8e9ae0c5f3db","path":"sprites/spr_tapiocapresunto_final_1/spr_tapiocapresunto_final_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"12ca229e-a3e8-4c2f-b569-f41beddfa824","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e664f83b-bb2f-4abe-9986-a9aea67b1876","path":"sprites/spr_tapiocapresunto_final_1/spr_tapiocapresunto_final_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d7f7cf27-15d7-421f-ac24-d8acb36ebe26","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":98,
+    "xorigin":92,
     "yorigin":43,
   },
   "swatchColours":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":197,
+  "width":184,
 }

@@ -7,6 +7,7 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_7AC69977","path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"inst_73FA2F48","path":"rooms/rm_menu/rm_menu.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -14,10 +15,11 @@
         {"$GMRInstance":"v1","%Name":"inst_7AC69977","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7AC69977","objectId":{"name":"obj_botao_scribble","path":"objects/obj_botao_scribble/obj_botao_scribble.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao_scribble","path":"objects/obj_botao_scribble/obj_botao_scribble.yy",},"propertyId":{"name":"str_text","path":"objects/obj_botao_scribble/obj_botao_scribble.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Iniciar",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1600.0,"y":928.0,},
+        {"$GMRInstance":"v1","%Name":"inst_73FA2F48","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_73FA2F48","objectId":{"name":"obj_logo","path":"objects/obj_logo/obj_logo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":959.5,"y":421.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
-        {"$GMRSpriteGraphic":"","%Name":"graphic_30E262CC","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_30E262CC","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_businlogo1","path":"sprites/spr_businlogo1/spr_businlogo1.yy",},"x":896.0,"y":416.0,},
         {"$GMRSpriteGraphic":"","%Name":"graphic_1EA96FBE","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_1EA96FBE","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_tittleScreen_foreground","path":"sprites/spr_tittleScreen_foreground/spr_tittleScreen_foreground.yy",},"x":960.0,"y":540.0,},
+        {"$GMRParticleSystem":"","%Name":"particle_412B99C1","colour":4294967295,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"particle_412B99C1","particleSystemId":{"name":"pse_fumaca_carro_intro","path":"particles/pse_fumaca_carro_intro/pse_fumaca_carro_intro.yy",},"resourceType":"GMRParticleSystem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1719.0,"y":652.0,},
       ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_3","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_36538AD5","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_36538AD5","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_tittleScreen_background","path":"sprites/spr_tittleScreen_background/spr_tittleScreen_background.yy",},"x":988.0,"y":313.0,},
