@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_draw_pie",
+  "%Name":"scr_scribble_util",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_draw_pie",
+  "name":"scr_scribble_util",
   "parent":{
     "name":"Outros",
     "path":"folders/Scripts/Outros.yy",

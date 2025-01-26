@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_draw_pie",
+  "%Name":"ClientePedido",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_draw_pie",
+  "name":"ClientePedido",
   "parent":{
-    "name":"Outros",
-    "path":"folders/Scripts/Outros.yy",
+    "name":"Cozinha",
+    "path":"folders/Scripts/Cozinha.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

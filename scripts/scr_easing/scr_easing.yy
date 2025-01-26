@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"easing",
+  "%Name":"scr_easing",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"easing",
+  "name":"scr_easing",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Outros",
+    "path":"folders/Scripts/Outros.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

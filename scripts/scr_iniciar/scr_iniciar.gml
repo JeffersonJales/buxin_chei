@@ -107,6 +107,8 @@ function game_language_change(new_lang, force = false){
 #macro MESSAGE_LANGUAGE_CHANGE_SETUP "LanguageSetup"
 
 #macro MESSAGE_CLIENTE_FOI_EMBORA "ClienteFoiEmbora"
+#macro MESSAGE_TEMPO_JOGO_ACABOU "TempoJogoAcabou"
+#macro MESSAGE_INICIAR_GAMEPLAY "IniciarGamePlayComida"
 #endregion
 
 #region BOOTING THE GAME

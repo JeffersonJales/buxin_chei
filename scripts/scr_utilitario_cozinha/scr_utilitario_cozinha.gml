@@ -44,12 +44,10 @@ function procurar_copo_vazio(copo) {
 	return noone;
 }
 
-function iniciar_timer(tempo, verde = true, _x = x, _y = bbox_top - 32){
+function iniciar_timer(tempo, verde = true, _x = x, _y = bbox_top - 32, callback = do_nothing){
 	
-	var _timer = instance_create_layer(_x, _y, "Timers", obj_timer_torta, {
-		tempo_maximo : tempo, 
-		sprite_index : verde ? spr_timer_verde : spr_timer_vermelho
-	});
+	var _timer = instance_create_layer(_x, _y, "Timers", obj_timer_torta);
+	_timer.configurar(tempo, callback, verde);
 
 	return _timer;
 }

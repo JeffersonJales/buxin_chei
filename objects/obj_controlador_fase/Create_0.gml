@@ -59,11 +59,11 @@ controle_jogo_fsm
 	}
 })
 .add("gameplay", {
+	enter : function(){
+		mailpost_delivery(MESSAGE_INICIAR_GAMEPLAY, id);
+	},
 	step : function(){
 		tentar_spawnar_cliente();
-		
-		if(--tempo_fase	<= 0) 
-			controle_jogo_fsm.change("fim");
 	}
 })
 .add("fim", {
@@ -75,4 +75,7 @@ controle_jogo_fsm
 controle_jogo_mailpost = new MailPost();
 controle_jogo_mailpost.add_subscription(MESSAGE_CLIENTE_FOI_EMBORA, function(instance_cliente){
 	liberar_spot(instance_cliente.spot_consumido);
+})
+controle_jogo_mailpost.add_subscription(MESSAGE_TEMPO_JOGO_ACABOU, function(){
+	controle_jogo_fsm.change("fim");
 })

@@ -1,74 +1,33 @@
 /// @description Paciência
-pedidos = [];
-pedidos_ok = [];
-pedidos_especiais = [];
-total_pagar = 0;
-
-
+pedido_cliente = undefined;
 spot_consumido = noone;
 tempo_maximo_paciencia = tempo_maximo_paciencia * ROOM_SPEED;
 
 iniciar = function(receitas, spot){
-	pedidos = receitas;
+	pedido_cliente = new ClientePedido(receitas, id); 
 	spot_consumido = spot;
-	if(!is_array(pedidos))
-		pedidos = array_create(1, pedidos);
-	
-	qtdPedidos = array_length(pedidos);
-	pedidos_ok = array_create(qtdPedidos, false);
-	pedidos_shine = array_create(qtdPedidos, false);
 
 	var t = TweenEasyMove(x, y, spot_consumido.x, y, 0, 120, EaseLinear, 0);
 	TweenAddCallback(t, TWEEN_EV_FINISH, id, function(){ cliente_fsm.change("pedido"); })
 }
 
 procurar_receitas_prontas = function(){
-	var qtd_ok = 0;
-	for(var i = 0; i < qtdPedidos; i++){
-		if(!pedidos_ok[i] && instance_exists(pedidos[i])){
-			var receitas = instance_find_all(pedidos[i])
-			for(var f = 0; f < array_length(receitas); f++){
-				var inst = instance_find(pedidos[i], f);
-				if(inst != noone && inst.pode_coletar()){
-					pedidos_ok[i] = true;
-					pedidos_especiais[i] = inst.receita_especial;
-					inst.coletar_receita();
-					balao_pedido.atualizar_lista(i);
-					break;
-				}
-			}
-		}
-		
-		qtd_ok += pedidos_ok[i];
-	}
-	
-	if(qtd_ok == qtdPedidos){
-		dar_dinheiro();
+	if(pedido_cliente.procurar_receitas_prontas())
 		cliente_fsm.change("sair");	
-	}
 }
-
-dar_dinheiro = function(){
-	
-}
-
-balao_pedido = noone;
 
 cliente_fsm = new SnowState("iniciar");
-cliente_fsm.event_set_default_function("step", do_nothing);
 cliente_fsm.event_set_default_function("click", do_nothing);
 
 cliente_fsm
 .add("iniciar", {})
 .add("pedido", {
 	enter : function(){
-		balao_pedido = instance_create_layer(x + sprite_width * 0.2, y - sprite_width * 0.25, "Baloes", obj_cliente_pedido);
-		balao_pedido.configurar_pedidos(id, pedidos);
-		timer_id = iniciar_timer(tempo_maximo_paciencia);
-	},
-	step : function(){
-		if(--tempo_maximo_paciencia <= 0)
+		pedido_cliente.instanciar_pedido();
+		
+		timer_id = iniciar_timer(tempo_maximo_paciencia,,,, function(){
 			cliente_fsm.change("sair");			
+		});
 	},
 	click : function(){
 		procurar_receitas_prontas();	
@@ -76,10 +35,15 @@ cliente_fsm
 })
 .add("sair", {
 	enter : function(){
+		if(instance_exists(timer_id))
+			paciencia_restante = timer_id.relogio_tempo.clock_get_remaining_perc_total();	
+		
+		pedido_cliente.calcular_valor_pedidos(paciencia_restante);
+		
 		instance_destroy_exists(timer_id);
 		timer_id = noone;
+		pedido_cliente.destruir_pedido();
 		
-		instance_destroy_exists(balao_pedido);
 		mailpost_delivery(MESSAGE_CLIENTE_FOI_EMBORA, id);
 
 		var spawner = array_get_random(instance_find_all(obj_spawner_cliente))
