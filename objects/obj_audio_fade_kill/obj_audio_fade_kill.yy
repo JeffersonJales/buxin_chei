@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cliente_pedido_icon",
+  "%Name":"obj_audio_fade_kill",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_cliente_pedido_icon",
+  "name":"obj_audio_fade_kill",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pedido",
-    "path":"folders/Objects/Jogo/Clientes/Pedido.yy",
+    "name":"BGM System",
+    "path":"folders/Libs/BGM System.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,5 +31,5 @@
   "solid":false,
   "spriteId":null,
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

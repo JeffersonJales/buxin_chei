@@ -6,6 +6,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_liquidificador",
@@ -37,7 +38,7 @@
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"sfx_ligando","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_blender_loop","path":"sounds/sfx_blender_loop/sfx_blender_loop.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_blender_loop","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sfx_desligando","filters":[
-        "GMPath",
+        "GMSound",
       ],"listItems":[],"multiselect":false,"name":"sfx_desligando","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_juice_ready","path":"sounds/sfx_juice_ready/sfx_juice_ready.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_juice_ready","varType":5,},
   ],
   "resourceType":"GMObject",

@@ -4,7 +4,10 @@ if(instance_exists(obj_lixeira)){
 	TweenEasyScale(image_xscale, image_yscale, image_xscale - 0.2, image_yscale - 0.2, 0, 30, EaseLinear, 0);
 	TweenEasyFade(image_alpha, image_alpha - 0.25, 0, 30, EaseLinear, 0);
 	var t = TweenEasyMove(x, y, inst.x, inst.y, 0, 30, EaseInBack, 0);
-	TweenAddCallback(t, TWEEN_EV_FINISH, id, instance_destroy);
+	TweenAddCallback(t, TWEEN_EV_FINISH, id, function(){
+		sfx_play_simple(sfx_trash);
+		instance_destroy();
+	});
 }
 else 
 	instance_destroy()

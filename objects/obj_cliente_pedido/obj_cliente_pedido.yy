@@ -10,8 +10,8 @@
   "name":"obj_cliente_pedido",
   "overriddenProperties":[],
   "parent":{
-    "name":"Clientes",
-    "path":"folders/Objects/Jogo/Clientes.yy",
+    "name":"Pedido",
+    "path":"folders/Objects/Jogo/Clientes/Pedido.yy",
   },
   "parentObjectId":null,
   "persistent":false,

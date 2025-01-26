@@ -9,6 +9,7 @@
   "name":"obj_receita_liquida_base",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_receita","path":"objects/obj_receita/obj_receita.yy",},"propertyId":{"name":"valor","path":"objects/obj_receita/obj_receita.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_receita","path":"objects/obj_receita/obj_receita.yy",},"propertyId":{"name":"sfx_coletado","path":"objects/obj_receita/obj_receita.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[sfx_drinking_1, sfx_drinking_2, sfx_drinking_3]",},
   ],
   "parent":{
     "name":"Liquida",

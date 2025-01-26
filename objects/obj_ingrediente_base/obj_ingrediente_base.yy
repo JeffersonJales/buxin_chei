@@ -6,6 +6,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_ingrediente_base",
@@ -42,6 +43,9 @@
     {"$GMObjectProperty":"v1","%Name":"sfx_falhado","filters":[
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"sfx_falhado","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_fail","path":"sounds/sfx_fail/sfx_fail.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_fail","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sfx_pegando","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"sfx_pegando","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_drag","path":"sounds/sfx_drag/sfx_drag.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_drag","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

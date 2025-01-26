@@ -10,7 +10,6 @@
 #macro AUDIO_BGM_CROSS_FADE_DESTROY_SECONDS 2
 #macro __BGM global.__audio_system.bgm
 
-
 global.__audio_system = {
 	bgm : {
 		current : noone,				/// The current audio is playing, it will save the asset reference
@@ -19,6 +18,7 @@ global.__audio_system = {
 		time_source : time_source_create(time_source_game, AUDIO_BGM_CROSS_FADE_DESTROY_SECONDS, time_source_units_seconds, __bgm_kill, [], 1, 1), /// It will try to kill all bgms that are stoping playing
 	},
 }
+
 
 function bgm_play(audio_asset, stop_all = true){
 	if(stop_all) bgm_stop_all();
@@ -75,6 +75,12 @@ function bgm_on_volume_change(){
 }
 function sfx_on_volume_change(){}
 
+
+function sfx_play(audio, loop = false, gain = sfx_get_volume(), offset = 0, pitch = 1, priority = AUDIO_PRIORITY_SFX_BASIC){
+	return audio_play_sound(audio, priority, loop, gain, offset, pitch);
+}
+
 function sfx_play_simple(audio, priority = AUDIO_PRIORITY_SFX_BASIC, _offset = 0){
 	return audio_play_sound(audio, priority, false, sfx_get_volume(), _offset);
 }
+

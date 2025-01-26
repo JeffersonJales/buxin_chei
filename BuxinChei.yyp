@@ -136,6 +136,7 @@
     {"id":{"name":"TGMS_Terms_Of_Use","path":"notes/TGMS_Terms_Of_Use/TGMS_Terms_Of_Use.yy",},},
     {"id":{"name":"TGMS_Update_Log","path":"notes/TGMS_Update_Log/TGMS_Update_Log.yy",},},
     {"id":{"name":"obj_async_handler","path":"objects/obj_async_handler/obj_async_handler.yy",},},
+    {"id":{"name":"obj_audio_fade_kill","path":"objects/obj_audio_fade_kill/obj_audio_fade_kill.yy",},},
     {"id":{"name":"obj_bgm_system","path":"objects/obj_bgm_system/obj_bgm_system.yy",},},
     {"id":{"name":"obj_boca_fogao","path":"objects/obj_boca_fogao/obj_boca_fogao.yy",},},
     {"id":{"name":"obj_button_generic","path":"objects/obj_button_generic/obj_button_generic.yy",},},

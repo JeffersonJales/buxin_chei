@@ -29,6 +29,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"valor","filters":[],"listItems":[],"multiselect":false,"name":"valor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"sfx_coletado","filters":[],"listItems":[],"multiselect":false,"name":"sfx_coletado","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"[sfx_eating_1, sfx_eating_2, sfx_eating_3]","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

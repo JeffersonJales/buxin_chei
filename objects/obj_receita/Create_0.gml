@@ -21,6 +21,7 @@ pode_coletar = function(){
 }
 
 coletar_receita = function(){
+	sfx_play_simple(array_get_random(sfx_coletado));
 	desocupar_recipiente();
 	instance_destroy();
 }

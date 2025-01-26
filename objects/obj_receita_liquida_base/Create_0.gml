@@ -15,6 +15,7 @@ preencher_copo = function(){
 }
 
 esvaziar_copo = function(){
+	sfx_play_simple(array_get_random(sfx_coletado));
 	status = STATUS_COPO_VAZIO;	
 	image_index = 0;
 	tween_scale_base_exec();
