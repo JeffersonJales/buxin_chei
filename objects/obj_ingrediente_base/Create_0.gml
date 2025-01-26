@@ -31,7 +31,7 @@ ingrediente_fsm
 	},
 	click : function(){
 		audio_stop_sound_fade(audio_id_preparando);
-		audio_id_preparando = undefined;
+		audio_id_preparando = noone;
 		
 		desocupar_recipiente();
 		gerar_ingrediente_ruim();
@@ -53,7 +53,7 @@ ingrediente_fsm
 		if(procurar_recipente_vazio(recipiente_ao_ficar_pronto, receita)){
 			sfx_play_simple(sfx_pegando);
 			audio_stop_sound_fade(audio_id_preparando);
-			audio_id_preparando = undefined;
+			audio_id_preparando = noone;
 
 			desocupar_recipiente();
 			instance_destroy();
@@ -70,7 +70,7 @@ ingrediente_fsm
 		image_index = 2;		
 		status = STATUS_INGREDIENTE_QUEIMADO;
 		audio_stop_sound_fade(audio_id_preparando);
-		audio_id_preparando = undefined;
+		audio_id_preparando = noone;
 
 		sfx_play_simple(sfx_falhado);
 	},
