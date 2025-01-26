@@ -43,3 +43,13 @@ function procurar_copo_vazio(copo) {
 	
 	return noone;
 }
+
+function iniciar_timer(tempo, verde = true, _x = x, _y = bbox_top - 32){
+	
+	var _timer = instance_create_layer(_x, _y, "Timers", obj_timer_torta, {
+		tempo_maximo : tempo, 
+		sprite_index : verde ? spr_timer_verde : spr_timer_vermelho
+	});
+
+	return _timer;
+}

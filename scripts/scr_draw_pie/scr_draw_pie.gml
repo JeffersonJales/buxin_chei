@@ -8,7 +8,9 @@ function draw_pie(_x		= x,
 				  _col		= c_white, 
 				  _rad_w	= 10,
 				  _rad_h	= 5, 
-				  _alpha	= 1) {
+				  _alpha	= 1, 
+				  _dir		= -90, 
+				  _vec_dir = -1) {
 
 	
 	if (_value > 0) { 
@@ -29,10 +31,10 @@ function draw_pie(_x		= x,
         
       for(i=0; i<=val; i++) {
 				
-        len = (i*sizeofsection)-90; 
+        len = ((i * sizeofsection) + _dir) * _vec_dir; 
         tx  = lengthdir_x(_rad_w, len);
         ty  = lengthdir_y(_rad_h, len);
-        draw_vertex(_x+tx, _y+ty);
+        draw_vertex(_x + tx, _y + ty);
       
 			}
 				

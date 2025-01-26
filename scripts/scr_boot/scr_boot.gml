@@ -9,6 +9,7 @@ function game_boot_instances(){
 function game_boot_game_start(){	
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_top);
+	draw_set_font(font_cordel_groteska);
 	
 	lexicon_index_declare_from_csv(LANGUAGE_CSV);
 	lexicon_index_fallback_language_set(LANGUAGE_PORTUGUESE);

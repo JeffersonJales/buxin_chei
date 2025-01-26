@@ -57,14 +57,14 @@ function tween_scale_base_exec(xscale = image_xscale + 0.1, yscale = image_yscal
 	__tween_scale = TweenEasyScale(xscale, yscale, __xscale_base, __yscale_base, 0, 15, EaseInOutBack, 0);
 }
 
-function tween_scale_base_exec_button_hover(xscale = __xscale_base - 0.1, yscale = __yscale_base - 0.1){
+function tween_scale_base_exec_button_hover(xscale = __xscale_base - 0.1, yscale = __yscale_base - 0.1, time = 10){
 	TweenDestroySafe(__tween_scale);
-	__tween_scale = TweenEasyScale(__xscale_base, __yscale_base, xscale, yscale, 0, 15, EaseInOutBack, 0);
+	__tween_scale = TweenEasyScale(__xscale_base, __yscale_base, xscale, yscale, 0, time, EaseInCubic, 0);
 }
 
-function tween_scale_base_exec_button_out(){
+function tween_scale_base_exec_button_out(time = 10){
 	TweenDestroySafe(__tween_scale);
-	__tween_scale = TweenEasyScale(image_xscale, image_yscale, __xscale_base, __yscale_base, 0, 15, EaseInOutBack, 0);
+	__tween_scale = TweenEasyScale(image_xscale, image_yscale, __xscale_base, __yscale_base, 0, 10, EaseInCubic, 0);
 }
 
 /// Print an message in the output window
