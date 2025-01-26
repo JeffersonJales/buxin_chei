@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"BGM_buxim_xei_stage_1.ogg",
   "type":1,
-  "volume":1.0,
+  "volume":0.5,
 }

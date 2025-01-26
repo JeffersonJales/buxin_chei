@@ -5,7 +5,7 @@
 global.options = {
 	sound_master : 1,					/// The master sound of the game
 	sound_sfx : 1,						/// SFX base audio volume
-	sound_bgm : 1,						/// BGM base audio volume
+	sound_bgm : .5,						/// BGM base audio volume
 	sound_normal_collect : true,		/// Can play the normal collect sfx
 	sound_special_collect : true,		/// Can play the special collect sfx
 	fullscreen : false,					/// Starts fullscreen or not
