@@ -34,6 +34,9 @@
     {"$GMObjectProperty":"v1","%Name":"tempo_para_queimar_em_sec","filters":[],"listItems":[],"multiselect":false,"name":"tempo_para_queimar_em_sec","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"recipiente_ao_ficar_pronto","filters":[],"listItems":[],"multiselect":false,"name":"recipiente_ao_ficar_pronto","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_prato","path":"objects/obj_prato/obj_prato.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_prato","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"receita","filters":[],"listItems":[],"multiselect":false,"name":"receita","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"panela","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"panela","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_panela","path":"objects/obj_panela/obj_panela.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_panela","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sfx_preparando","filters":[
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"sfx_preparando","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"sfx_preparing_tapioca_loop","path":"sounds/sfx_preparing_tapioca_loop/sfx_preparing_tapioca_loop.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sfx_preparing_tapioca_loop","varType":5,},

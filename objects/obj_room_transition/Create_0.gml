@@ -10,7 +10,7 @@ image_yscale = display_get_gui_height();
 image_blend = c_black;
 
 on_fade_in = function(){
-	rm_destinoto(rm_destino);
+	room_goto(rm_destino);
 	var _t = TweenEasyFade(1, 0, tempo_entre_fade_in_out, tempo_fade_out, EaseLinear);
 	TweenAddCallback(_t, TWEEN_EV_FINISH, id, on_fade_out);
 }

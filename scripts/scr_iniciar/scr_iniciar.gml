@@ -32,7 +32,7 @@ global.game_blackboard = {
 #region ROOM TRANSITION
 
 function room_goto_ext(rm){
-	with(obj_button_generic) button_kill();
+	with(obj_botao) matar_botao();
 	
 	instance_destroy(obj_room_transition);
 	var i = instance_create(obj_room_transition);

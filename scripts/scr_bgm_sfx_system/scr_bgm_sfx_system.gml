@@ -84,3 +84,10 @@ function sfx_play_simple(audio, gain = 1, priority = AUDIO_PRIORITY_SFX_BASIC, _
 	return audio_play_sound(audio, priority, false, gain * sfx_get_volume(), _offset);
 }
 
+
+function sfx_play_exists(audio, gain = 1, priority = AUDIO_PRIORITY_SFX_BASIC, _offset = 0){
+	if(audio != undefined)
+		return audio_play_sound(audio, priority, false, gain * sfx_get_volume(), _offset);
+
+	return undefined;
+}

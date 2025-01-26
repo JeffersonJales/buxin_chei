@@ -19,7 +19,7 @@ function procurar_recipente_vazio(destino_recipiente, ingrediente_obj) {
 	for(var i = 0; i < array_length(recipientes); i++){
 		var alvo_recipiente = recipientes[i];
 		if(alvo_recipiente.pode_ser_ocupado()){
-			var ingrediente = instance_create_depth(alvo_recipiente.x, alvo_recipiente.y, alvo_recipiente.depth - 1, ingrediente_obj)
+			var ingrediente = instance_create_depth(alvo_recipiente.x, alvo_recipiente.y, alvo_recipiente.depth - 10, ingrediente_obj)
 			recipientes[i].ocupar_com_ingrediente(ingrediente);
 			return true;
 		}

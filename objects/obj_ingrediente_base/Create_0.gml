@@ -10,6 +10,9 @@ tempo_restante_para_proximo_status = 0;
 /// Som id
 audio_id_preparando = noone;
 
+/// Panela
+penela_id = noone;
+
 /// Recipente
 instancia_recipiente = noone;
 desocupar_recipiente = function(){
@@ -25,6 +28,7 @@ ingrediente_fsm.event_set_default_function("step", do_nothing);
 ingrediente_fsm
 .add(STATUS_INGREDIENTE_CRU, {
 	enter : function(){
+		penela_id = instance_create_depth(x, y, depth + 1, panela);
 		image_index = 0;
 		status = STATUS_INGREDIENTE_CRU;
 		audio_id_preparando = sfx_play(sfx_preparando, true);

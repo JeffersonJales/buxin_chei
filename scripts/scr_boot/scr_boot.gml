@@ -1,4 +1,4 @@
-#macro ROOM_AFTER_BOOT rm_fase_1
+#macro ROOM_AFTER_BOOT rm_menu
 
 function game_boot_instances(){
 	instance_create(obj_game_overlay);

@@ -4,7 +4,7 @@ function bgm_auto_set_on_room_start(){
 	
 	switch(room){
 		case rm_fase_1: _bgm = BGM_buxim_xei_stage_1; break;	
-		case rm_menu:	_bgm = undefined; break;	
+		case rm_menu:	_bgm = BGM_buxim_xei_start_game; break;	
 		case rm_mapa:	_bgm = undefined; break;	
 	}
 	

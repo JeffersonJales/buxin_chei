@@ -68,7 +68,7 @@ controle_jogo_fsm
 })
 .add("fim", {
 	enter: function(){
-		room_restart();
+		room_goto_ext(rm_menu);
 	}
 })
 

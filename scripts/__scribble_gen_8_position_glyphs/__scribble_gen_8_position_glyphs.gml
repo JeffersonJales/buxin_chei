@@ -1,6 +1,7 @@
+// Feather disable all
 function __scribble_gen_8_position_glyphs()
 {
-    static _generator_state = __scribble_get_generator_state();
+    static _generator_state = __scribble_initialize().__generator_state;
     with(_generator_state)
     {
         var _glyph_grid      = __glyph_grid;
@@ -54,12 +55,14 @@ function __scribble_gen_8_position_glyphs()
         var _j = _page_start_line;
         repeat(1 + _page_end_line - _page_start_line)
         {
-            var _line_y          = _line_grid[# _j, __SCRIBBLE_GEN_LINE.__Y         ];
-            var _line_word_start = _line_grid[# _j, __SCRIBBLE_GEN_LINE.__WORD_START];
-            var _line_word_end   = _line_grid[# _j, __SCRIBBLE_GEN_LINE.__WORD_END  ];
-            var _line_width      = _line_grid[# _j, __SCRIBBLE_GEN_LINE.__WIDTH     ];
-            var _line_height     = _line_grid[# _j, __SCRIBBLE_GEN_LINE.__HEIGHT    ];
-            var _line_halign     = _line_grid[# _j, __SCRIBBLE_GEN_LINE.__HALIGN    ];
+            var _line_x               = _line_grid[# _j, __SCRIBBLE_GEN_LINE.__X              ];
+            var _line_y               = _line_grid[# _j, __SCRIBBLE_GEN_LINE.__Y              ];
+            var _line_word_start      = _line_grid[# _j, __SCRIBBLE_GEN_LINE.__WORD_START     ];
+            var _line_word_end        = _line_grid[# _j, __SCRIBBLE_GEN_LINE.__WORD_END       ];
+            var _line_width           = _line_grid[# _j, __SCRIBBLE_GEN_LINE.__WIDTH          ];
+            var _line_height          = _line_grid[# _j, __SCRIBBLE_GEN_LINE.__HEIGHT         ];
+            var _line_halign          = _line_grid[# _j, __SCRIBBLE_GEN_LINE.__HALIGN         ];
+            var _line_disable_justify = _line_grid[# _j, __SCRIBBLE_GEN_LINE.__DISABLE_JUSTIFY];
             
             var _line_glyph_start = _word_grid[# _line_word_start, __SCRIBBLE_GEN_WORD.__GLYPH_START];
             var _line_glyph_end   = _word_grid[# _line_word_end,   __SCRIBBLE_GEN_WORD.__GLYPH_END  ];
@@ -128,8 +131,7 @@ function __scribble_gen_8_position_glyphs()
             
             
             // Text on the last line is never justified
-            // FIXME - This should work per-page not per-model
-            if ((_line_halign == __SCRIBBLE_FA_JUSTIFY) && (_j >= _line_count - 1)) _line_halign = __SCRIBBLE_PIN_LEFT;
+            if ((_line_halign == __SCRIBBLE_FA_JUSTIFY) && _line_disable_justify) _line_halign = __SCRIBBLE_PIN_LEFT;
             
             var _justification_extra_spacing = 0;
             
@@ -149,18 +151,18 @@ function __scribble_gen_8_position_glyphs()
                 }
             }
             
+            var _glyph_x = (_overall_bidi == __SCRIBBLE_BIDI.R2L)? -_line_x : _line_x;
+            
             switch(_line_halign)
             {
-                case fa_left:               var _glyph_x = (_overall_bidi == __SCRIBBLE_BIDI.R2L)? (_alignment_width - _line_adjusted_width) : 0;     break;
-                case __SCRIBBLE_PIN_LEFT:   var _glyph_x = (_overall_bidi == __SCRIBBLE_BIDI.R2L)? (_pin_alignment_width - _line_adjusted_width) : 0; break;
-                case fa_center:             var _glyph_x = -(_line_adjusted_width div 2);                                                             break;
-                case fa_right:              var _glyph_x = -_line_adjusted_width;                                                                     break;
-                case __SCRIBBLE_PIN_CENTRE: var _glyph_x = (_pin_alignment_width - _line_adjusted_width) div 2;                                       break;
-                case __SCRIBBLE_PIN_RIGHT:  var _glyph_x = _pin_alignment_width - _line_adjusted_width;                                               break;
+                case fa_left:               _glyph_x += (_overall_bidi == __SCRIBBLE_BIDI.R2L)? (_alignment_width - _line_adjusted_width) : 0;     break;
+                case __SCRIBBLE_PIN_LEFT:   _glyph_x += (_overall_bidi == __SCRIBBLE_BIDI.R2L)? (_pin_alignment_width - _line_adjusted_width) : 0; break;
+                case fa_center:             _glyph_x += -(_line_adjusted_width div 2);                                                             break;
+                case fa_right:              _glyph_x += -_line_adjusted_width;                                                                     break;
+                case __SCRIBBLE_PIN_CENTRE: _glyph_x += (_pin_alignment_width - _line_adjusted_width) div 2;                                       break;
+                case __SCRIBBLE_PIN_RIGHT:  _glyph_x += _pin_alignment_width - _line_adjusted_width;                                               break;
                 
                 case __SCRIBBLE_FA_JUSTIFY:
-                    var _glyph_x = 0;
-                    
                     // Don't apply justification on the last line on a page
                     if (_j != _page_end_line)
                     {
