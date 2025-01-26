@@ -38,6 +38,9 @@
     {"$GMObjectProperty":"v1","%Name":"sfx_on_enter","filters":[
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"sfx_on_enter","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sfx_on_enter_2","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"sfx_on_enter_2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sfx_on_leave","filters":[
         "GMSound",
       ],"listItems":[],"multiselect":false,"name":"sfx_on_leave","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":5,},
