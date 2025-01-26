@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Cozinha",
-    "path":"folders/Sprites/Cozinha.yy",
+    "name":"IngredientesReceitas",
+    "path":"folders/Sprites/Cozinha/IngredientesReceitas.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

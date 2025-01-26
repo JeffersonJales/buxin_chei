@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_receita_tapioca_queijo",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_ingrediente_extra_presunto",
+  "eventList":[],
   "managed":true,
-  "name":"obj_receita_tapioca_queijo",
+  "name":"obj_ingrediente_extra_presunto",
   "overriddenProperties":[],
   "parent":{
-    "name":"Solida",
-    "path":"folders/Objects/Jogo/Cozinha/Receita/Solida.yy",
+    "name":"Ingrediente extra",
+    "path":"folders/Objects/Jogo/Cozinha/Ingrediente extra.yy",
   },
   "parentObjectId":{
-    "name":"obj_receita",
-    "path":"objects/obj_receita/obj_receita.yy",
+    "name":"obj_ingrediente_extra_basse",
+    "path":"objects/obj_ingrediente_extra_basse/obj_ingrediente_extra_basse.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tapiocaqueijo_final",
-    "path":"sprites/spr_tapiocaqueijo_final/spr_tapiocaqueijo_final.yy",
+    "name":"spr_presunto",
+    "path":"sprites/spr_presunto/spr_presunto.yy",
   },
   "spriteMaskId":null,
   "visible":true,
