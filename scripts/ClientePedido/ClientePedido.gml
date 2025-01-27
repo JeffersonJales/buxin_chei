@@ -19,7 +19,6 @@ function ClientePedido(receitas, cliente) constructor{
 	}
 	
 	static calcular_gorjeta = function(paciencia_perc){
-		print(paciencia_perc);
 		if(paciencia_perc > 0.66) return 1.2;
 		if(paciencia_perc > 0.33) return 1.1;
 		return 1;

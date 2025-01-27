@@ -15,6 +15,5 @@ ui_dinheiro_mailpost.add_subscription(MESSAGE_INICIAR_GAMEPLAY, function(control
 })
 ui_dinheiro_mailpost.add_subscription(MESSAGE_CLIENTE_FOI_EMBORA, function(cliente_id){
 	quantidade_dinheiro += cliente_id.pedido_cliente.__total_a_pagar;
-	print(cliente_id.pedido_cliente.__total_a_pagar);
 	TweenFire(id, EaseLinear, 0, 0, 0, 20, "quantidade_atual", quantidade_atual, quantidade_dinheiro);
 })
